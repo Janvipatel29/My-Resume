@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janvi M Patel's Resume</title>
+    <style>
+        /* Add borders to sections */
+        .section {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        /* Add borders to the container */
+        .container {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        /* Style the header */
+        header {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+        }
+        /* Style the footer */
+        footer {
+            border-top: 2px solid #ddd;
+            padding-top: 20px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 5px;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        header p {
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: #666;
+        }
+        .section {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .section p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+            line-height: 1.8;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills-column {
+            width: calc(100% - 10px);
+            margin-right: 20px;
+        }
+        .skills-column:last-child {
+            margin-right: 0;
+        }
+        .skills-column h3 {
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .skills-column ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .skills-column li {
+            margin-bottom: 5px;
+        }
+        .technical-skills {
+            list-style-type: none;
+            padding: 0;
+        }
+        .technical-skills > li {
+            margin-bottom: 15px;
+        }
+        .technical-skills > li > strong {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .technical-skills ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .technical-skills ul li {
+            margin-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Janvi M Patel</h1>
+            <p>Date Of Birth: 29th December 2000</p>
+            <p>+91-9723062114</p>
+            <p>janvipatelanand@gmail.com</p>
+            <p>B-22, Patanjali Tenament-2, Opposite Of Krishma Party Plot, Chikhodra-388320, Anand</p>
+        </header>
+        
+        <section class="section">
+            <h2>Objective</h2>
+            <p>To acquire a dignified position where I can effectively contribute and improve my knowledge and skills as an IT Engineer, To the organization through continuous learning and teamwork.</p>
+        </section>
+        
+        <section class="section">
+            <h2>Education</h2>
+            <p><strong>Bachelor Of Engineering (I.T)</strong><br>
+            Knowledge Institute Of Technology & Engineering, Anand, Gujarat<br>
+            July 2018 â May 2022<br>
+            GTU (CGPA: 8.96)</p>
+            
+            <p><strong>Higher secondary</strong><br>
+            Jawahar Navodaya Vidyalaya, Lanva, Patan<br>
+            April 2018<br>
+            CBSE Board (CGPA: 6.8)</p>
+            
+            <p><strong>Secondary</strong><br>
+            Jawahar Navodaya Vidyalaya, Bhadaran, Anand<br>
+            April 2016<br>
+            CBSE Board (CGPA: 7.8)</p>
+        </section>
+
+        <section class="section">
+            <h2>Summer Internship</h2>
+            <p><strong>NMR Enterprises, Vadodara</strong><br>
+            <strong>Duration:</strong> 2021 (15 days Summer Internship)<br>
+            <strong>Role:</strong> Web Development Intern</p>
+            <p>During my brief but impactful 15-day summer internship at NMR Enterprises in Vadodara, I collaborated with a dynamic team to create a basic website. Our goal was to develop a user-friendly and informative platform to showcase the company's services and products. Through effective teamwork and coordination, we successfully designed and implemented the website, incorporating essential features and ensuring its functionality. This experience enhanced my understanding of web development principles and strengthened my ability to work efficiently within a team environment.</p>
+        </section>
+        
+        <section class="section">
+            <h2>Internship</h2>
+            <p><strong>Technoguide Infosoft, Anand</strong><br>
+            <strong>Duration:</strong> Dec 2021 - May 2022 (6 months)<br>
+            <strong>Role:</strong> PHP Web Development Intern</p>
+            <p>During my 6-month internship at Technoguide Infosoft in Anand, under their guidance, I took on the challenge of independently developing Website for a Society Management System using core PHP. This project included the creation of both front-end (Designed and implemented user interfaces using HTML, CSS, JavaScript and PHP) and back-end (Admin Dashboard), along with database connectivity. Conducted testing and debugging of Hole Project to ensure functionality and performance, I embraced every aspect of the development process. This hands-on experience allowed me to deepen my understanding of core PHP and sharpen my problem-solving skills. By the end of the internship, I successfully delivered a fully functional website that met the client's requirements.</p>
+        </section>
+        
+        <section class="section">
+            <h2>Work Experience</h2>
+            <p><strong>Casting & Mouldings, Anand</strong><br>
+            <strong>Duration:</strong> Feb 2023 - April 2024<br>
+            <strong>Position:</strong> Dispatch Department Executive</p>
+            <ul>
+                <li>Generated invoices and managed all aspects of the dispatching process for products.</li>
+                <li>Coordinated with transporters to ensure efficient logistics and timely deliveries.</li>
+                <li>Additionally worked on creating inspection documents.</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skills-column">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li><strong>Good at Teamwork:</strong> Working with a group of people to achieve a shared goal or outcome in an effective way.</li>
+                    <li><strong>Dedicated to my Work:</strong> Dedication gives proper Focus on goals and achieve them.</li>
+                    <li><strong>Communication Skills:</strong> Ability to effectively convey ideas and communicate with team members and clients.</li>
+                    <li><strong>Problem-solving Skills:</strong> Capacity to analyze complex problems, identify solutions, and troubleshoot issues.</li>
+                    <li><strong>Adaptability:</strong> Flexibility to adapt to changing project requirements, technologies, and client preferences.</li>
+                    <li><strong>Time Management:</strong> Efficiently manage time and prioritize tasks to meet project deadlines and deliverables.</li>
+                    <li><strong>Continuous Learning:</strong> Commitment to staying updated with the latest web development trends, technologies.</li>
+                </ul>
+    
+                    <div class="skills-column">
+                    <h3>Technical Skills</h3>
+                    <ul class="technical-skills">
+                        <li>
+                            <strong>Programming Languages:</strong>
+                            <ul>
+                                <li>C++: Object-oriented, efficient</li>
+                                <li>Basic JAVA: Fundamental</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Web Technologies:</strong>
+                            <ul>
+                                <li>HTML: Structured, foundational</li>
+                                <li>SQL: Database management, querying, data manipulation</li>
+                                <li>CSS: Styling, design, layout</li>
+                                <li>PHP: Server-side scripting, dynamic web development</li>
+                                <li>Bootstrap: Responsive, mobile-first, front-end framework</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Design & Graphics:</strong>
+                            <ul>
+                                <li>Microsoft Office: Document creation, spreadsheet management</li>
+                                <li>Adobe Illustrator: Illustration, design</li>
+                                <li>Adobe Photoshop: Image editing, photo manipulation, design</li>
+                                <li>Canva: Graphic design, social media graphics, presentation design</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Languages:</h2>
+                <ul>
+                    <li>English: Fluent, communication skills</li>
+                    <li>Hindi: Fluent, communication skills</li>
+                    <li>Gujarati: Native speaker, fluent, language proficiency</li>
+                </ul>
+        </section>
+        
+        <section class="section">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>I enjoy exploring various topics and learning new things.</li>
+                <li>I love to do creative work in my free time like painting, crafting, or even cooking new recipes.</li>
+                <li>Additionally, I have a passion for traveling and exploring new destinations, cultures, and experiences.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Declaration: I consent to the processing of my personal data for the purpose of recruitment for the position I am applying and all the above information is correct to my knowledge. JANVI PATEL</p>
+        </footer>
+    </div>
+</body>
+</html>
